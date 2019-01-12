@@ -16,11 +16,15 @@ brew install maven
 ## Installation
 Switch to project root directory,
 
-To Build the project:
-`mvn clean install`
+To build the project:
+```
+mvn clean install
+```
 
-To run SimleSearch Application:
-`mvn exec:java`
+To run SimpleSearch Application:
+```
+mvn exec:java
+```
 
 
 
