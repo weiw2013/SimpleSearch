@@ -26,5 +26,6 @@ To run SimpleSearch Application:
 mvn exec:java
 ```
 
+![SimpleSearch screen shot](docs/SimpleSearch Screen Shot.png)
 
 

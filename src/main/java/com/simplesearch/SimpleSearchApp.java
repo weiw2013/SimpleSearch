@@ -21,7 +21,7 @@ public class SimpleSearchApp {
 	System.out.println("Start reading json files...");
 	StandardEntityStorageInitializer storageInitializer = new StandardEntityStorageInitializer();
 	StandardEntityStorage storage = storageInitializer.initialize();
-	System.out.println("Finished reading json files. You can start search now");
+	System.out.println("Finished reading json files. You can start your search now");
 	System.out.println(simpleHelpMessage());
 	try (Scanner scanner = new Scanner(System.in)) {
 	    InputSearchService searchService = new InputSearchService();
