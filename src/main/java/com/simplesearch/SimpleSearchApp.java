@@ -69,7 +69,8 @@ public class SimpleSearchApp {
 		+ "Example: \n"
 		+ "user admin					# find all users with field of value \"admin\"\n"
 		+ "organization id 119				# find all organization with the \"id\" field of value 119\n"
-		+ "ticket organizationId \"\"			# find all tickets with empty organizationId field\n\n"
+		+ "ticket organizationId \"\"			# find all tickets with empty organizationId field\n"
+		+ "user alias \"Miss Coffey\"			# find all users with alias \"Miss Coffey\"\n\n"
 		+ "Searchable fields in user: \n" + new User().getFieldNames() + "\n\n"
 		+ "Searchable fields in ticket: \n"+ new Ticket().getFieldNames() + "\n\n"
 		+ "Searchable fields in organization: \n"+ new Organization().getFieldNames() + "\n\n";
