@@ -1,13 +1,15 @@
 package com.simplesearch.services;
 
-import java.io.File;
 import java.util.List;
 import com.simplesearch.entities.Organization;
 import com.simplesearch.entities.StandardEntityStorage;
 import com.simplesearch.entities.Ticket;
 import com.simplesearch.entities.User;
 
-
+/**
+ * Initialize in-memory storage with content from json files
+ *
+ */
 public class StandardEntityStorageInitializer {
     
     /**

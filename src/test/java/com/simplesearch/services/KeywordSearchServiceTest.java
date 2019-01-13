@@ -57,6 +57,7 @@ public class KeywordSearchServiceTest {
 	    {"user", null, "1", users.subList(0, 1)},
 	    {"user", "alias", "", users.subList(1, 2)},
 	    {"user", "role", "admin", users.subList(0, 1)},
+	    {"user", "timezone", "Sri Lanka", users.subList(0, 1)},
 	    {"ticket", null, "false", tickets},
 	    {"ticket", "type", "incident", tickets},
 	    {"organization", null, "", new ArrayList<>()}

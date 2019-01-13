@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
- * @author WEI
+ * Base class for User/Ticket/Organization entity
  *
  */
 public abstract class StandardEntity {
